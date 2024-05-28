@@ -1,0 +1,97 @@
+.background-img {
+    position: fixed;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    filter: blur(1.3px);
+}
+
+.container {
+    position: relative; 
+}
+a.btn {
+    top: 367px;
+}
+
+.btn {
+    position: absolute;
+	font-size: 21px;
+    top: 50%; 
+    left: 38%; 
+    z-index: 1;
+    display: inline-block;
+    padding: 9px 28px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+a.btn1 {
+    top: 367px;
+}
+
+.btn1 {
+    position: absolute;
+	font-size: 21px;
+    top: 57%;
+    left: 55%; 
+    z-index: 1;
+    display: inline-block;
+    padding: 9px 28px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+.foreground-img1 {
+    position: absolute;
+    top:222px;
+    left: 37%; 
+    z-index: 3; 
+    width: 126px;
+    height: auto; 
+    border-radius: 72px; 
+	 filter: blur(0.8px);
+}
+
+
+.foreground-img2 {
+    position: absolute;
+    top:222px;
+    left: 54%; 
+    z-index: 3; 
+    width: 126px;
+    height: auto; 
+    border-radius: 72px; 
+	filter: blur(0.8px);
+}
+.text1{
+	position: absolute;
+    top:154px;
+	font-size: 30px;
+    left: 33%; 
+	padding: 12px 40px;
+	color: black;
+   
+    
+}
+.text2{
+	position: absolute;
+    top:154px;
+    left: 51%; 
+	font-size: 30px;
+	padding: 12px 71px;
+	color: black;
+  
+    
+}

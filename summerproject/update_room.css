@@ -1,0 +1,16 @@
+.success-message {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+button {
+    position: relative;
+    left: 729px;
+    top: 235px;
+    font-size: 29px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}

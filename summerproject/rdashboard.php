@@ -1,0 +1,39 @@
+<?php
+session_start();
+if(!isset($_SESSION["key"])){
+	header("location:rlogin.php");
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>receptionist dashboard</title>
+<link rel="stylesheet" type="text/css" href="rdashboard.css"/>
+		<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+</head>
+<body>
+
+<div class="container">
+<centre><img src="..\summerproject\beige-color-hotel-lobby-with-less-light.jpg" alt="photo4" class="background-img4"/></centre>
+</div>
+<div class="nav">
+<nav class="main-nav">
+<a href="Guest_registration.php">Guest Registrations</a>
+			<a href="Roomavailability.php">Room Availability</a>
+			<a href="Reservation.php">Reservation</a>
+			<a href="complaints.html">Complaints</a>
+	</nav>
+</div>
+<div id="button1">
+			<a href="guestregister.html" class="btn5">NEW GUEST REGISTRATION</a>
+		</div>
+		<div id="button2">
+			<a href="login.html" class="btn6">Log Out</a>
+		</div>
+<div id="cpt">
+				&#169 All Rights Reserved.&#174
+			</div>
+			
+
+</body>
+</html>

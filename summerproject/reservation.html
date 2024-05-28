@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservation Form</title>
+  <link rel="stylesheet" type="text/css" href="reservation.css">
+</head>
+<body>
+
+<h1>Reservation Form</h1>
+
+<form action="submit_reservation.php" method="post"required autocomplete="off">
+    <label>Reservation_id:</label>
+        <input type="text" name="reservation_id" required autocomplete="off"><br/><br/>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required autocomplete="off"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="phone">Phone:</label><br>
+  <input type="tel" id="phone_number" name="phone_number" required autocomplete="off"><br>
+  <label>Room Type</label>
+				<select name="room_type">
+					<option value="Standard room">Standard room</option>
+					<option value="Deluxe room">Deluxe room</option>
+					<option value="Suite room">Suite room</option>
+				</select>
+  <label for="checkin">Check-in Date:</label><br>
+  <input type="date" id="check_in_date" name="check_in_date" required autocomplete="off"><br>
+  <label for="checkout">Check-out Date:</label><br>
+  <input type="date" id="check_out_date" name="check_out_date" required autocomplete="off"><br>
+  <input type="submit" value="Submit">
+</form>
+<a id="back-button" class="btn btn-primary" href="rdashboard.html">Back</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home page</title>
+		<link rel="Stylesheet" type="text/css" href="external2.css">
+		//<script src="" crossorigin="anonymous"></script>
+		
+<body>
+
+<div class="container">
+			<nav class="main-nav">
+			<a href="project.html">Home</a>
+			<a href="project1.html" class="active">About Us</a>
+			<a href="project2.html">Contact</a>
+	</nav>
+</div>
+<div id="container">
+<div class="image">
+<img src="C:\Users\Lenovo\Downloads\SHOP NOW.png"/>
+</div>
